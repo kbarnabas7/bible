@@ -1,52 +1,41 @@
-Evangéliumok 80 nap alatt – Offline Biblia Olvasó (Flutter)
+# Evangéliumok 80 nap alatt – Offline Bible Reader (Flutter)
 
-Modern, offline működő Biblia-olvasó alkalmazás Flutterben, több fordítással, napi olvasási tervvel és testreszabható megjelenéssel. Ez a saját Gyülekezetünk igényei szerint készült, egyedi preferenciák alapján, hogy közösen tudjunk egy saját olvasási tervben Bibliát olvasni..
-Az alkalmazás weben és Androidon is futtatható.
+**HU:** Modern, offline Biblia-olvasó alkalmazás Flutterben több fordítással, napi olvasási tervvel és testreszabható megjelenéssel. Weben és Androidon is futtatható.  
+**EN:** Offline Bible reader built with Flutter (Web + Android), featuring a daily reading plan, multiple translations, and customizable UI.
 
-Fő funkciók
--Napi olvasási terv
--Dátum alapú olvasás
--Napok közötti navigáció
--Fejezet- és vers-tartományok támogatása
+## Demo (Web)
+https://evangeliumokhusvetig.netlify.app/
 
-Több bibliafordítás
+## Features
+- **Daily reading plan** (date-based navigation)
+- **Chapter & verse range support**
+- **Multiple translations**
+  - Károli Gáspár (1908)
+  - Revideált Új Fordítás (RÚF)
+  - In-app switching + saved selection (**SharedPreferences**)
+- **Customizable UI**
+  - Light/Dark mode
+  - Font size
+  - Highlight colors
+- **Verse selection & copy**
+  - Select verses with visual feedback
+  - Long-press to copy verse to clipboard
+- **Auto scroll**
+  - Slow continuous scroll with start/pause controls
+- **Offline-first**
+  - Texts and reading plan are loaded from local **JSON** files
 
--Károli Gáspár (1908)
--Revideált Új Fordítás (RÚF)
--fordításváltás az alkalmazáson belül
--kiválasztás megjegyzése (SharedPreferences)
+## Tech stack
+- **Flutter (Dart)**
+- **Flutter Web**
+- **Android**
+- **SharedPreferences**
+- **JSON** (Bible texts + reading plan)
+- *(Optional tooling)* Python scripts for data preparation
 
-Testreszabható megjelenítés
-
--világos / sötét mód
--betűméret állítása
--többféle kiemelési szín
-
-Igevers kijelölés
-
--versenkénti kijelölés
--vizuális visszajelzés
-
-Szöveg másolás
--hosszú érintéssel egy ige vágólapra másolható
-
-Automatikus olvasás
-
--lassú, folyamatos lefelé görgetés
--indítás / szüneteltetés gombbal
-
-Offline működés
-
--minden bibliafordítás JSON fájlokból töltődik
--internetkapcsolat nélkül is használható
-
-Technológiai stack
-
--Flutter (Dart) – cross-platform UI
--Flutter Web – böngészős verzió
--Android (AAB) – Google Play kompatibilis
--SharedPreferences – beállítások mentése
--JSON – Biblia szövegek és olvasási terv
--Python – adatfeldolgozó segédszkriptek
-
-Online verzió linkje: https://evangeliumokhusvetig.netlify.app/
+## How to run locally
+```bash
+flutter pub get
+flutter run
+# Web
+flutter run -d chrome
