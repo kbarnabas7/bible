@@ -1,6 +1,6 @@
-Biblia – Offline Biblia Olvasó (Flutter)
+Evangéliumok 80 nap alatt – Offline Biblia Olvasó (Flutter)
 
-Modern, offline működő Biblia-olvasó alkalmazás Flutterben, több fordítással, napi olvasási tervvel és testreszabható megjelenéssel.
+Modern, offline működő Biblia-olvasó alkalmazás Flutterben, több fordítással, napi olvasási tervvel és testreszabható megjelenéssel. Ez a saját Gyülekezetünk igényei szerint készült, egyedi preferenciák alapján, hogy közösen tudjunk egy saját olvasási tervben Bibliát olvasni.
 Az alkalmazás weben és Androidon is futtatható.
 
 Fő funkciók
