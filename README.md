@@ -41,3 +41,7 @@ flutter pub get
 flutter run
 # Web
 flutter run -d chrome
+
+## Screenshots
+![Home](docs/images/home.png)
+![Settings](docs/images/settings.png)
