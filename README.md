@@ -39,3 +39,5 @@ flutter pub get
 flutter run
 # Web
 flutter run -d chrome
+
+Bible text files may be subject to separate licensing.
