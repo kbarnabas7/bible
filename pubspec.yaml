@@ -1,0 +1,27 @@
+name: biblia_karoli
+description: Offline Biblia olvasó
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/reading_plan.json
+    - assets/bible/karoli.json
+    - assets/bible/ruf.json
