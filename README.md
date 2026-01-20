@@ -3,6 +3,8 @@
 **HU:** Modern, offline Biblia-olvasó alkalmazás Flutterben több fordítással, napi olvasási tervvel és testreszabható megjelenéssel. Weben és Androidon is futtatható.  
 **EN:** Offline Bible reader built with Flutter (Web + Android), featuring a daily reading plan, multiple translations, and customizable UI.
 
+Bible text files may be subject to separate licensing.
+
 ## Demo (Web)
 https://evangeliumokhusvetig.netlify.app/
 
@@ -39,5 +41,3 @@ flutter pub get
 flutter run
 # Web
 flutter run -d chrome
-
-Bible text files may be subject to separate licensing.
