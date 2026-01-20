@@ -50,4 +50,3 @@ Technológiai stack
 -Python – adatfeldolgozó segédszkriptek
 
 Online verzió linkje: https://evangeliumokhusvetig.netlify.app/
-A webapp kódja van feltöltve.
