@@ -48,3 +48,5 @@ Technológiai stack
 -SharedPreferences – beállítások mentése
 -JSON – Biblia szövegek és olvasási terv
 -Python – adatfeldolgozó segédszkriptek
+
+Online verzió linkje: https://evangeliumokhusvetig.netlify.app/
