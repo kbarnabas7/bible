@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
               builder: (_, __, ___) {
                 return MaterialApp(
                   debugShowCheckedModeBanner: false,
-                  title: 'Biblia',
+                  title: 'Evangéliumok – 80 napos terv',
                   theme: AppTheme.light,
                   darkTheme: AppTheme.dark,
                   themeMode: themeMode,
