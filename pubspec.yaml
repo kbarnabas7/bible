@@ -3,7 +3,7 @@ description: Offline Biblia olvasó
 
 publish_to: "none"
 
-version: 1.0.0+1
+version: 1.0.0+5   # ⬅️ NÖVELTÜK A VERSION CODE-OT (nagyon fontos)
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -17,6 +17,13 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  flutter_launcher_icons: ^0.13.1   # ⬅️ EZ AZ IKON CSOMAG
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.jpg"
 
 flutter:
   uses-material-design: true
